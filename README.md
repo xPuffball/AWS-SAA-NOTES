@@ -1,4 +1,4 @@
-# aws-saa-notes (Jaemin Han)
+# Jaemin's AWS Study Notes
 ## Prelude
 >These notes are based on Adrian's Cantrill's AWS SAA-C02 course at learn.cantrill.io - these notes are for personal tracking & development goals - they are not guranteed to be accurate or useful to your study.
 ### AWS Certifications
