@@ -1,18 +1,5 @@
-## Prelude
->These notes are based on Adrian's Cantrill's AWS SAA-C02 course at learn.cantrill.io - these notes are for personal tracking & development goals - they are not guranteed to be accurate or useful to your study.
-### AWS Certifications
-AWS Certifications can be broken down into 4 different categories of certs:
-- Foundational
-- Associate
-- Professional
-- Specialty
-
-[certs]()
-
-Typically, starting with the Solutions Architect Associate and progressing onto other certifications is the recommended route - a lot of the CCP certification is covered by the SAA cert, so starting with SAA will prevent overlap when progressing with AWS studies.
-
-## The Learn
 ### 1.1 Course Fundamentals & AWS Accounts
+![accounts](https://github.com/xPuffball/AWS-SAA-NOTES/blob/main/01-Course-Fundamentals-and-AWS-Accounts/01-visual-aids/VA-aws-accounts.JPG)
 #### 1.1.1 Creating an AWS Account
 An AWS account is a container for identities (users, roles) and resources.
 
