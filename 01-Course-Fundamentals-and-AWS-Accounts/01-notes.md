@@ -35,7 +35,8 @@ AWS accounts need *unique* email addresses to be initialized - this means that w
 - add a "+" sign after your email username (e.g. j4emin.han@gmail.com => j4emin.han+AWSStudy1@gmail.com)
 - theoretically, this lets you create *infinite* gmail accounts for your AWS account needs!
 
-#### 1.1.5 Multi-Factor Authentication
+#### 1.1.5 Multi-Factor Authentication & Securing your Account
+![security](https://github.com/xPuffball/AWS-SAA-NOTES/blob/main/01-Course-Fundamentals-and-AWS-Accounts/01-visual-aids/VA-securing-account.JPG)
 If your username & password are leaked, anyone can be you!
 Factors are different pieces of evidence which prove... well, the fact that you are indeed you. Factors can be divided into 4 categories of evidence:
 - Knowledge - Something you know (e.g. username, password, your mother's second cousin's pet's brother's middle name)
