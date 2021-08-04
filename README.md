@@ -1,6 +1,6 @@
 # Jaemin's AWS Study Notes
 ## Prelude
->These notes are based on Adrian's Cantrill's AWS SAA-C02 course at learn.cantrill.io - these notes are for personal tracking & development goals - they are not guranteed to be accurate or useful to your study.
+>These notes are based on Stephane Maarek's course on Udemy - these notes are for personal tracking & development goals - they are not guranteed to be accurate or useful to your study.
 ### AWS Certifications
 AWS Certifications can be broken down into 4 different categories of certs:
 - Foundational
@@ -13,6 +13,64 @@ AWS Certifications can be broken down into 4 different categories of certs:
 Typically, starting with the Solutions Architect Associate and progressing onto other certifications is the recommended route - a lot of the CCP certification is covered by the SAA cert, so starting with SAA will prevent overlap when progressing with AWS studies.
 
 ## The Learn
+### 0.1 What is AWS?
+AWS lets you build sophisticated, scalable applications with the cloud - it's applicable to many, if not all industries!
+#### 0.1.1 The History of AWS
+2002: Internal Launch
+2003: Amazon Infrastrcture is brought to Market
+2004: Public Launch with SQS
+2006: Relaunched Publicly with SQS, S3 & EC2
+2007: Europe Launch
+
+#### 0.1.2 AWS Global Infrastructure & AWS Regions
+AWS has ***regions*** all around the world - region names can be:
+- us-east-1
+- eu-west-3 
+- etc...
+A ***region*** is a ***cluster of data centers***
+- most AWS services are region-scoped:
+    - this means that using a service in one region does not carry over to another
+
+#### 0.1.3 How do you choose an AWS region?
+1. Compliance:
+    - data governance and legal requirements: data never leaves a region without permission
+2. Proximity:
+    - how close is the region to the customers - latency to end user
+3. Available Services:
+    - within a region: new services and new features aren't available in every region
+4. Pricing:
+    - pricing varies from region to region and is transparent in the service pricing page
+#### 0.1.4 AWS Availability Zones
+Each AWS region has many availability zones (usually 3, min is 2, max is 6)
+e.g. ap-southeast-2a/ap-southeast-2b/ap-southeast-2c
+
+Each availability zone **(AZ)** is one or more discrete ***data centers*** with:
+- redundant power
+- networking
+- connectivity
+
+***Data Centers***
+- they're separate from each other, so that they're isolated from disasters
+- they're connected with high bandwidth, ultra-low latency networking
+- multiple data centers form a region
+
+***Points of Presence (Edge Location)***
+Amazon has 216 Points of Presence (205 Edge Locations & 11 Regional Caches) in 84 cities across 42 countries
+- content is delivered to end users with lower latency
+
+#### 0.1.5 The AWS Console
+AWS has ***global services***:
+- identity & access management (IAM)
+- Route 53 (DNS Service)
+- Cloudfront (Content Delivery Network)
+- WAF (Web Application Firewall)
+
+Most AWS services are **Region-Scoped***
+- Amazon EC2 (Infrastructure as a service)
+- Elastic Beanstalk (Platform as a service)
+- Lambda (Function as a service)
+- Rekognition (Software as a service)
+
 ### 1.1 Course Fundamentals & AWS Accounts
 ![accounts](https://github.com/xPuffball/AWS-SAA-NOTES/blob/main/01-Course-Fundamentals-and-AWS-Accounts/01-visual-aids/VA-aws-accounts.JPG)
 #### 1.1.1 Creating an AWS Account
